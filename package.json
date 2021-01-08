@@ -1,15 +1,19 @@
 {
   "name": "db4-project",
   "version": "1.0.0",
-  "description": "## Instructions",
+  "description": "Node DB4 Project",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "nodemon": "^2.0.6"
+    "knex": "^0.21.12",
+    "nodemon": "^2.0.6",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
